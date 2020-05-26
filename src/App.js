@@ -34,7 +34,7 @@ class App extends Component {
         method: "GET",
         headers: {
           "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com",
-          "x-rapidapi-key": "54ed02bbfdmshb2ec4694ce6a881p1dbfb7jsn2cf94ca09455"
+          "x-rapidapi-key": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         }
       }
     )
