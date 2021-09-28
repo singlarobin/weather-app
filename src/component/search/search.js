@@ -16,7 +16,7 @@ const Search = (props) => {
         method: "GET",
         headers: {
           "x-rapidapi-key":
-            "54ed02bbfdmshb2ec4694ce6a881p1dbfb7jsn2cf94ca09455",
+            process.env.RAPID_API_ACCESS_KEY,
           "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com",
         },
       }
