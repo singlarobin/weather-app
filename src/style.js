@@ -1,26 +1,18 @@
-import { blueGrey, blue } from "@material-ui/core/colors";
+import { blueGrey } from "@material-ui/core/colors";
 
-const styles = theme => ({
-  container: {
-    backgroundColor: blueGrey[600]
-  },
-  searchBar: {
-    padding: theme.spacing(2),
-    margin: theme.spacing(2)
-  },
+const styles = () => ({
+  container: (props) => ({
+    backgroundColor: blueGrey[600],
+    margin: "-1rem",
+    height: props.height || "100vh",
+  }),
+  // container: {
+  //   backgroundColor: blueGrey[600],
+  //   margin: "-1rem",
+  //   // height: "100vh",
+  // },
   progress: {
-    marginLeft: "calc(45%)"
+    marginLeft: "calc(45%)",
   },
-  paperContent: {
-    padding: theme.spacing(3),
-    margin: theme.spacing(3),
-    textAlign: "center"
-  },
-  initialContent: {
-    color: blue[900]
-  },
-  errorContent: {
-    color: blue[900]
-  }
 });
 export default styles;
