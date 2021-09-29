@@ -1,24 +1,32 @@
 {
   "name": "weather-app",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "main": "src/index.js",
+  "private": true,
   "dependencies": {
     "@material-ui/core": "^4.10.0",
     "@material-ui/icons": "^4.9.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "^3.0.1"
-  },
-  "devDependencies": {
-    "typescript": "^3.8.3"
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3",
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "prestart": "npm run lint:fix",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test ",
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": [
     ">0.2%",
@@ -26,14 +34,6 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/singlarobin/weather-reactjs-app.git"
-  },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/singlarobin/weather-reactjs-app/issues"
-  },
-  "homepage": "https://github.com/singlarobin/weather-reactjs-app#readme"
+  "license": "ISC"
 }
