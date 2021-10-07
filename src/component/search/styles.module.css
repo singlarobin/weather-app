@@ -1,0 +1,27 @@
+.searchContainer {
+    width: 70vw;
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: var(--container-bg);
+    border: 1px solid var(--text-color);
+    border-radius: 0.5rem;
+}
+
+.inputContainer {
+    font-size: 1rem;
+    color: var(--text-color);
+    flex: 1;
+    padding: 0;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.inputContainer::placeholder {
+    font-size: 1rem;
+    color: var(--text-color);
+    opacity: 0.8;
+}
