@@ -1,0 +1,6 @@
+.iconContainer {
+    background-color: var(--container-bg);
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
