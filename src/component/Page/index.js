@@ -26,7 +26,6 @@ const Page = () => {
         setWeatherList(currentList);
     };
     const handleDataFetch = async () => {
-        //document.getElementById('cityText').innerHTML = ' ';
         if(isEmptyString(cityName)) {
             setErrorMessage('Enter City Name');
             return;
