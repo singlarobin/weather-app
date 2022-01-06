@@ -1,0 +1,14 @@
+.inputText {
+    font-size: 1rem;
+    color: var(--text-color);
+    padding: 0;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.inputText::placeholder {
+    font-size: 1rem;
+    color: var(--text-color);
+    opacity: 0.8;
+}
