@@ -1,0 +1,24 @@
+.weatherContainer {
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem auto;
+}
+
+.header {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.listContainer {
+    background-color: var(--container-bg);
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 50vw;
+    border: 1px solid var(--container-bg);
+    border-radius: 0.5rem;
+    overflow-y: scroll;
+}
